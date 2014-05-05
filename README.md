@@ -39,17 +39,13 @@ has to be billed 60s, in the other case, the exact amount of seconds is conserve
 
 To make it simple, this table will play the project log source:
 
-| id | customer  | recipient  | time                | duration |
+| id  | recipient | recipient  | time | duration  |
+| :------: | :------: | :------: | :------: | :------: |
+| 1  | Mr Bob | 0537604425 | 2012-09-04 01:09:31 | 45 |
+| 2  | Mr Bob | 0033986532 | 2012-09-07 13:12:24 | 85 |
+| 3  | Jean-Pierre | 0656544545 | 2012-09-11 21:18:00 | 145 |
 
-|----------------------------------------------------------------|
 
-| 1     | Mr Bob    | 0537604425 | 2012-09-04 01:09:31 | 45       |
-
-| 2     | Mr Bob    | 0033986532 | 2012-09-07 13:12:24 | 85       |
-
-| 3     | Jean-Pierre | 0656544545 | 2012-09-11 21:18:00 | 145      |
-
-|----------------------------------------------------------------|
 
 **Again, the goal of this project is not to reproduce a complete functional 
 application but just a prototyping essai allowing flexible implementation of such a billing system.**
